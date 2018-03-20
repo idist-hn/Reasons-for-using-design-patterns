@@ -5,10 +5,10 @@
 
 ## Introduction Giới thiệu
 
-Sau những bài báo về vấn đề [ Tại sao thiết kế rất quan trọng trong phát triển phần mềm][1], Tôi muốn tiếp cận một khía cạnh mới, nâng cao hơn trong việc thiết kế phần mềm gọi là: `Design Patterns`.Như những bài báo trước của tôi, ý tưởng trong suốt cuộc họp với một thành viên dự án là làm sao để thiết kế phần mềm một cách tốt nhất. Nhân vật chính của cuộc thảo luận cho rằng sử dụng `Design Patterns`
+Sau những bài báo về vấn đề [ Tại sao thiết kế rất quan trọng trong phát triển phần mềm][1], Tôi muốn tiếp cận một khía cạnh mới, nâng cao hơn trong việc thiết kế phần mềm gọi là: `Design Patterns`.Như những bài báo trước của tôi, ý tưởng trong suốt cuộc họp với một thành viên dự án là làm sao để thiết kế phần mềm một cách tốt nhất. Nội dung chính của cuộc thảo luận cho rằng sử dụng `Design Patterns`
  quá mất thời gian trong việc phát triển hệ thống thương mại. Mục đích của tôi trong bài viết này để chứng minh tại sao tôi tin ý kiến trên là sai.
 
-Tôi sẽ không đi chi tiết vào bất kì cấu trúc hay ví dụ nào của `Design Patterns`.Có nhiều nguồn tham khảo tốt hơn để tìm những ví dụ có sẵn.
+Tôi sẽ không đi chi tiết vào bất kì cấu trúc hay ví dụ nào của `Design Patterns`.Có nhiều nguồn tham khảo tốt hơn về chúng ở khắp nơi.
 
 ##  Design Pattern là gì?
 
@@ -18,7 +18,7 @@ Tham khảo thông tin từ [Wikipedia][2]:
 
 > "A design pattern in architecture and computer science is a formal way of documenting a solution to a design problem in a particular field of expertise."
 
-*" Một `design pattern` trong kiến trúc và khoa học máy tính là một phương pháp tiêu chuẩn ghi chép để giải quyết vấn đề về thiết kế trong bất kì lĩnh vực chuyên môn nào."*
+*" Một `design pattern` trong kiến trúc và khoa học máy tính là một phương pháp tiêu chuẩn ghi chép giải pháp để giải quyết vấn đề về thiết kế trong bất kì lĩnh vực chuyên môn nào."*
 
 Tham khảo từ [Data & Object Factory][3]:
 
