@@ -44,22 +44,22 @@ Lấy một vài ví dụ tương tự `Design Pattern` trong kĩ thuật dân d
 
 * Các giải pháp (cầy hoặc đường hầm) đều có tài liệu và dễ hiểu
 * Các giải pháp (cầy hoặc đường hầm) đều thường dùng để giải quyết các vấn đề của kĩ sư dân dụng
-* Các giải pháp (cầy hoặc đường hầm) không cần phải xác định hay quy định nhưng nó khá trừu tượng và có thể điều chỉnh với các vấn đề cụ thể bằng tay ( các ví dụ như cầu hay đường hầm có thể được lựa chọn để thể hiện cho sự liên kết trong các vấn đề cụ thể của họ)
+* Các giải pháp (cầy hoặc đường hầm) không cần phải xác định hay quy định nhưng nó khá trừu tượng và có thể điều chỉnh với các vấn đề cụ thể bằng tay ( các ví dụ như vật liệu xây cầu hay đường hầm có thể được lựa chọn để thể hiện cho sự liên kết trong các vấn đề cụ thể của họ)
 
 Các lập luận chống lại  `Design Patterns` như chúng không phù hợp cho mục đích thương mại do chúng mất quá nhiều thời gian để triển khai, nó không thể kéo dài. Thật ra `Design Patterns` tiết kiệm thời gian hơn (khi nhìn vào tổng quan quá trình phát triển ứng dụng) khi cho nhà phát triển tự chọn và thử nghiệm các giải pháp có sẵn sao cho họ có thể thích ứng với nhu cầu cụ thể của họ.
 Vấn đề duy nhất tôi gặp phải từ `Design Patterns` là họ cần thời gian để học hỏi. Một số người trong số họ có thể khó nắm bắt và hiểu được chúng. Đây thật sự là một lý do thích hợp, do đó nó đòi hỏi cần có kĩ năng tốt hơn để có thể sử dụng chúng. Điều này có thể khiến chi phí dự án ban đầu tăng lên. Tuy nhiên, khi xem qua toàn bộ thời gian phát triển ứng dụng, tôi rất hi vọng các chi phí phát triển ban đầu có thể được bù lại do chi phí bảo trì thấp hơn, sự hiểu biết cao hơn và khả năng mở rộng dễ dàng hơn (làm cho ứng dụng mở rộng dễ dàng hơn, đáp ứng các cơ hội mới và phát triển cao hơn trong tương lai).
 
 `Design Patterns` giảm bớt sự phức tạp, và giúp các giải pháp trở nên dễ hiểu hơn.
 
-`Design Patterns` là các giải pháp đã được kiểm tra và thử nghiệm, các nhà phát triển không phải bắt đầu từ đầu, và có thể chạy ngay với một giải pháp đã được chứng minh nó có thể hoạt động (miễn là `Design Pattern` đang được sử dụng có thể giải quyết vấn đề tương tự). It would be wrong to expect a bridge to solve the problem of crossing an ocean, where a bridge would simply be unsuitable. Nó sẽ sai khi mong đợi một cái cầu băng qua đại dương, khi mà đơn giản là 1 cây cầu sẽ không phù hợp.
+`Design Patterns` là các giải pháp đã được kiểm tra và thử nghiệm, các nhà phát triển không phải bắt đầu từ đầu, và có thể chạy ngay với một giải pháp đã được chứng minh nó có hiệu quả (miễn là `Design Pattern` đang được sử dụng có thể giải quyết vấn đề tương tự). Nó sẽ rất sai khi mong đợi một cái cầu băng qua đại dương, khi mà đơn giản là 1 cây cầu sẽ không phù hợp.
 
 ## Những lợi ích khi sử dụng các Design Pattern
 
-`Design Patterns` cung cấp các ưu điểm sau:
+`Design Patterns` cung cấp các lợi ích sau:
 
 * Cung cấp cho các nhà phát triển một loạt các giải pháp đã được kiểm tra và thử nghiệm để làm việc với chúng.
 * Chúng là ngôn ngữ trung lập ( trung gian ) và vì thế có thể áp dụng vào bất cứ ngôn ngữ nào có hỗ trợ hướng đối tượng.
-* Chúng được hỗ trợ bởi truyền thông bởi vì thực tế chúng đã được công nhận và có thể được nghiên cứu nếu nó không chỉ là một trường hợp cụ thể.
+* Chúng được hỗ trợ bởi truyền thông vì thực tế chúng đã được công nhận và có thể được nghiên cứu nếu nó không chỉ là một trường hợp cụ thể.
 * Chúng một bản theo dõi chứng minh chúng được sử dụng rộng rãi và giảm các lỗi kĩ thuật cho các dự án.
 * Chúng rất linh hoạt và có thể sử dụng trong bất kì ứng dụng hay tên miền nào.
 
