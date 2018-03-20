@@ -34,39 +34,38 @@ Vì vậy một `Design Pattern` là đích đến cuối cùng để giải quy
 
 `Design Patterns` cung cấp cho các nhà phát triển phần mềm một loạt các giải pháp đã được thử nghiệm cho các vấn đề cơ bản, do đó, ta giảm được các nguy cơ cho dự án bằng việc không phải sử dụng một bản thiết kế mới và chưa được kiểm tra.
 
-`Design Patterns` ban đầu có thể tốn nhiều thời gian phát triển, vì nếu đội của bạn chưa làm quen với nó thì phải đi lòng vòng. Tuy nhiên, looking further down the development pipeline, once familiarity with them increases, development timescales should gradually reduce.
+`Design Patterns` ban đầu có thể tốn nhiều thời gian phát triển, vì nếu đội của bạn chưa làm quen với nó thì phải đi lòng vòng. Tuy nhiên, khi nhìn vào quá trình phát triển, các thói quen sử dụng chúng tăng lên, thời gian để phát triển phần mềm sẽ giảm đi.
 
 ## So sánh với kĩ thuật dân dụng
 
-To give an analogy of a `Design Pattern` from the field of civil engineering (which as I stated in my article [Why design is Critical to Software Development][1]) has close similarities to software engineering), would be to think of a solution for crossing a river. This is a recurring problem for civil engineers, to which there are a couple of well documented and understood solutions. The civil engineers may build a bridge or a tunnel.
+Lấy một vài ví dụ tương tự `Design Pattern` trong kĩ thuật dân dụng (như tôi đã đề cập trong bài viết [Tại sao việc thiết kế rất quan trọng trong phát triển phần mềm][1]) có nhiều điểm tương đồng với nhau),như việc tìm kiếm một giải pháp để vượt qua một con sông. Đây là một vấn đề thường xuyên của một kĩ sư dân dụng, mà có một vài giải pháp được chứng minh và làm rõ. Các kĩ sư dân dụng có thể xây dựng 1 cây cầu hoặc một đường hầm.
 
-Why would a civil engineer try to solve this problem from scratch when there are real world solutions that can be referred to? There are close parallels between the civil engineer solving the river problem, and the software engineer solving a software problem:
+ Tại sao các kĩ sư dân dụng lại cố gắng giải quyết vấn đề này từ đầu trong khi trong thực tế các giải pháp đều đã được nhắc tới? Có một sự tương đồng khi kĩ sư dân dụng cố gắng giải quyết vấn đề về dòng sông và kĩ sư phần mềm cố gắng giải quyết vấn đề của phần mềm:
 
-* The solutions (bridge or tunnel) are both well understood and documented
-* The solutions (bridge or tunnel) solve recurring civil engineering problems
-* The solutions (bridge or tunnel) are not deterministic or prescriptive, but are abstract and can be tailored to the specific problem to hand (the bridge or tunnel building materials for example can be selected for their alignment to the specific problem)
+* Các giải pháp (cầy hoặc đường hầm) đều có tài liệu và dễ hiểu
+* Các giải pháp (cầy hoặc đường hầm) đều thường dùng để giải quyết các vấn đề của kĩ sư dân dụng
+* Các giải pháp (cầy hoặc đường hầm) không cần phải xác định hay quy định nhưng nó khá trừu tượng và có thể điều chỉnh với các vấn đề cụ thể bằng tay ( các ví dụ như cầu hay đường hầm có thể được lựa chọn để thể hiện cho sự liên kết trong các vấn đề cụ thể của họ)
 
-The argument against `Design Patterns` that they are not suitable for commercial use due to their taking too long to implement does not hold up. `Design Patterns` save time (when viewed over the lifetime of the application) by giving the developer a selection of tried and tested off-the-shelf solutions which they can tailor to their own specific needs.
+Các lập luận chống lại  `Design Patterns` như chúng không phù hợp cho mục đích thương mại do chúng mất quá nhiều thời gian để triển khai, nó không thể kéo dài. Thật ra `Design Patterns` tiết kiệm thời gian hơn (khi nhìn vào tổng quan quá trình phát triển ứng dụng) khi cho nhà phát triển tự chọn và thử nghiệm các giải pháp có sẵn sao cho họ có thể thích ứng với nhu cầu cụ thể của họ.
+Vấn đề duy nhất tôi gặp phải từ `Design Patterns` là họ cần thời gian để học hỏi. Một số người trong số họ có thể khó nắm bắt và hiểu được chúng. Đây thật sự là một lý do thích hợp, do đó nó đòi hỏi cần có kĩ năng tốt hơn để có thể sử dụng chúng. Điều này có thể khiến chi phí dự án ban đầu tăng lên. Tuy nhiên, khi xem qua toàn bộ thời gian phát triển ứng dụng, tôi rất hi vọng các chi phí phát triển ban đầu có thể được bù lại do chi phí bảo trì thấp hơn, sự hiểu biết cao hơn và khả năng mở rộng dễ dàng hơn (làm cho ứng dụng mở rộng dễ dàng hơn, đáp ứng các cơ hội mới và phát triển cao hơn trong tương lai).
 
-The only issue I have come across with `Design Patterns` is that they take time to learn. Some of them can be difficult to grasp and comprehend. This is a reasonable criticism, as it therefore requires a more skilled developer to use them. This then may increase the project costs initially. However, when viewed over the lifetime of an application I would fully expect those initial development costs to be recouped due to the lower ongoing maintenance costs due to the higher comprehension and easier extensibility (making the application easier to extend in the future to meet new and emergent opportunities).
+`Design Patterns` giảm bớt sự phức tạp, và giúp các giải pháp trở nên dễ hiểu hơn.
 
-`Design Patterns` reduce complexity, and therefore the solution becomes easier to comprehend.
-
-`Design Patterns` are tried and tested solutions, the developer does not need to start from scratch, and can hit the ground running with a solution that has been proven to work (as long as the `Design Pattern` being used solves a similar problem). It would be wrong to expect a bridge to solve the problem of crossing an ocean, where a bridge would simply be unsuitable.
+`Design Patterns` là các giải pháp đã được kiểm tra và thử nghiệm, các nhà phát triển không phải bắt đầu từ đầu, và có thể chạy ngay với một giải pháp đã được chứng minh nó có thể hoạt động (miễn là `Design Pattern` đang được sử dụng có thể giải quyết vấn đề tương tự). It would be wrong to expect a bridge to solve the problem of crossing an ocean, where a bridge would simply be unsuitable. Nó sẽ sai khi mong đợi một cái cầu băng qua đại dương, khi mà đơn giản là 1 cây cầu sẽ không phù hợp.
 
 ## Những lợi ích khi sử dụng các Design Pattern
 
-`Design Patterns` therefore provide the following benefits.
+`Design Patterns` cung cấp các ưu điểm sau:
 
-* They give the developer a selection of tried and tested solutions to work with
-* They are language neutral and so can be applied to any language that supports object-orientation
-* They aid communication by the very fact that they are well documented and can be researched if that is not the case.
-* They have a proven track record as they are already widely used and thus reduce the technical risk to the project
-* They are highly flexible and can be used in practically any type of application or domain
+* Cung cấp cho các nhà phát triển một loạt các giải pháp đã được kiểm tra và thử nghiệm để làm việc với chúng.
+* Chúng là ngôn ngữ trung lập ( trung gian ) và vì thế có thể áp dụng vào bất cứ ngôn ngữ nào có hỗ trợ hướng đối tượng.
+* Chúng được hỗ trợ bởi truyền thông bởi vì thực tế chúng đã được công nhận và có thể được nghiên cứu nếu nó không chỉ là một trường hợp cụ thể.
+* Chúng một bản theo dõi chứng minh chúng được sử dụng rộng rãi và giảm các lỗi kĩ thuật cho các dự án.
+* Chúng rất linh hoạt và có thể sử dụng trong bất kì ứng dụng hay tên miền nào.
 
 ## Kết luận
 
-`Design Patterns`, despite their initial learning curve, are a very worthwhile investment. They will enable you to implement tried and tested solutions to problems, thus saving time and effort during the implementation stage of the software development lifecycle. By using well understood and documented solutions, the final product will have a much higher degree of comprehension. If the solution is easier to comprehend, then by extension, it will also be easier to maintain.
+`Design Patterns`là một khoản đầu tư rất đáng, mặc dù đường cong học tập ban đầu khó khăn. Chúng cho phép bạn thực hiện các giải pháp cho các vấn đề đã được thử nghiệm và kiểm tra do đó tiết kiệm được thời gian và sức lực trong suốt quá trình triển khai và phát triển phần mềm. bằng các sử dụng các giải pháp đã được làm rõ và có tài liệu rõ ràng, sản phẩm cuối cùng sẽ có mức độ hoàn thiện cao hơn nhiều. Nếu giải pháp dễ hiểu hơn, sau đó bằng cách mở rộng nó, nó sẽ được bảo trì dễ dàng hơn.
 
 [1]: http://www.codeproject.com/Tips/806867/Why-Design-is-Critical-to-Software-Development
 [2]: http://en.wikipedia.org/wiki/Design_pattern
