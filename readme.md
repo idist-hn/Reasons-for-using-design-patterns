@@ -36,14 +36,14 @@ Vì vậy một `Design Pattern` là đích đến cuối cùng để giải quy
 
 `Design Patterns` ban đầu có thể tốn nhiều thời gian phát triển, vì nếu đội của bạn chưa làm quen với nó thì phải đi lòng vòng. Tuy nhiên, khi nhìn vào quá trình phát triển, các thói quen sử dụng chúng tăng lên, thời gian để phát triển phần mềm sẽ giảm đi.
 
-## So sánh với kĩ thuật dân dụng
+## So sánh với kĩ thuật xây dựng(civil engineering)
 
-Lấy một vài ví dụ tương tự `Design Pattern` trong kĩ thuật dân dụng (như tôi đã đề cập trong bài viết [Tại sao việc thiết kế rất quan trọng trong phát triển phần mềm][1]) có nhiều điểm tương đồng với nhau),như việc tìm kiếm một giải pháp để vượt qua một con sông. Đây là một vấn đề thường xuyên của một kĩ sư dân dụng, mà có một vài giải pháp được chứng minh và làm rõ. Các kĩ sư dân dụng có thể xây dựng 1 cây cầu hoặc một đường hầm.
+Lấy một vài ví dụ tương tự `Design Pattern` trong kĩ thuật xây dựng (như tôi đã đề cập trong bài viết [Tại sao việc thiết kế rất quan trọng trong phát triển phần mềm][1]) có nhiều điểm tương đồng với nhau),như việc tìm kiếm một giải pháp để vượt qua một con sông. Đây là một vấn đề thường xuyên của một kĩ sư xây dựng, mà có một vài giải pháp được chứng minh và làm rõ. Các kĩ sư dân dụng có thể xây dựng 1 cây cầu hoặc một đường hầm.
 
- Tại sao các kĩ sư dân dụng lại cố gắng giải quyết vấn đề này từ đầu trong khi trong thực tế các giải pháp đều đã được nhắc tới? Có một sự tương đồng khi kĩ sư dân dụng cố gắng giải quyết vấn đề về dòng sông và kĩ sư phần mềm cố gắng giải quyết vấn đề của phần mềm:
+ Tại sao các kĩ sư xây dựng lại cố gắng giải quyết vấn đề này từ đầu trong khi trong thực tế các giải pháp đều đã được nhắc tới? Có một sự tương đồng khi kĩ sư xây dựng cố gắng giải quyết vấn đề về dòng sông và kĩ sư phần mềm cố gắng giải quyết vấn đề của phần mềm:
 
 * Các giải pháp (cầy hoặc đường hầm) đều có tài liệu và dễ hiểu
-* Các giải pháp (cầy hoặc đường hầm) đều thường dùng để giải quyết các vấn đề của kĩ sư dân dụng
+* Các giải pháp (cầy hoặc đường hầm) đều thường dùng để giải quyết các vấn đề của kĩ sư xây dựng
 * Các giải pháp (cầy hoặc đường hầm) không cần phải xác định hay quy định nhưng nó khá trừu tượng và có thể điều chỉnh với các vấn đề cụ thể bằng tay ( các ví dụ như vật liệu xây cầu hay đường hầm có thể được lựa chọn để thể hiện cho sự liên kết trong các vấn đề cụ thể của họ)
 
 Các lập luận chống lại  `Design Patterns` như chúng không phù hợp cho mục đích thương mại do chúng mất quá nhiều thời gian để triển khai, nó không thể kéo dài. Thật ra `Design Patterns` tiết kiệm thời gian hơn (khi nhìn vào tổng quan quá trình phát triển ứng dụng) khi cho nhà phát triển tự chọn và thử nghiệm các giải pháp có sẵn sao cho họ có thể thích ứng với nhu cầu cụ thể của họ.
@@ -60,7 +60,7 @@ Vấn đề duy nhất tôi gặp phải từ `Design Patterns` là họ cần t
 * Cung cấp cho các nhà phát triển một loạt các giải pháp đã được kiểm tra và thử nghiệm để làm việc với chúng.
 * Chúng là ngôn ngữ trung lập ( trung gian ) và vì thế có thể áp dụng vào bất cứ ngôn ngữ nào có hỗ trợ hướng đối tượng.
 * Chúng được hỗ trợ bởi truyền thông vì thực tế chúng đã được công nhận và có thể được nghiên cứu nếu nó không chỉ là một trường hợp cụ thể.
-* Chúng một bản theo dõi chứng minh chúng được sử dụng rộng rãi và giảm các lỗi kĩ thuật cho các dự án.
+* Chúng có một bản được theo dõi chứng minh vì chúng được sử dụng rộng rãi và giảm các lỗi kĩ thuật cho các dự án.
 * Chúng rất linh hoạt và có thể sử dụng trong bất kì ứng dụng hay tên miền nào.
 
 ## Kết luận
