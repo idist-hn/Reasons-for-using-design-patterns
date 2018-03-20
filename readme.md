@@ -65,7 +65,7 @@ Vấn đề duy nhất tôi gặp phải từ `Design Patterns` là họ cần t
 
 ## Kết luận
 
-`Design Patterns`là một khoản đầu tư rất đáng, mặc dù đường cong học tập ban đầu khó khăn. Chúng cho phép bạn thực hiện các giải pháp cho các vấn đề đã được thử nghiệm và kiểm tra do đó tiết kiệm được thời gian và sức lực trong suốt quá trình triển khai và phát triển phần mềm. bằng các sử dụng các giải pháp đã được làm rõ và có tài liệu rõ ràng, sản phẩm cuối cùng sẽ có mức độ hoàn thiện cao hơn nhiều. Nếu giải pháp dễ hiểu hơn, sau đó bằng cách mở rộng nó, nó sẽ được bảo trì dễ dàng hơn.
+`Design Patterns`là một khoản đầu tư rất đáng, mặc dù quá trình học tập ban đầu khó khăn. Chúng cho phép bạn thực hiện các giải pháp cho các vấn đề đã được thử nghiệm và kiểm tra do đó tiết kiệm được thời gian và sức lực trong suốt quá trình triển khai và phát triển phần mềm. bằng các sử dụng các giải pháp đã được làm rõ và có tài liệu rõ ràng, sản phẩm cuối cùng sẽ có mức độ hoàn thiện cao hơn nhiều. Nếu giải pháp dễ hiểu hơn, sau đó bằng cách mở rộng nó, nó sẽ được bảo trì dễ dàng hơn.
 
 [1]: http://www.codeproject.com/Tips/806867/Why-Design-is-Critical-to-Software-Development
 [2]: http://en.wikipedia.org/wiki/Design_pattern
